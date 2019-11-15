@@ -6,6 +6,7 @@ import com.example.helloworld.api.Saying;
 import com.example.helloworld.core.Template;
 import io.dropwizard.jersey.caching.CacheControl;
 import io.dropwizard.jersey.params.DateTimeParam;
+import javax.annotation.security.RolesAllowed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
